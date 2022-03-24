@@ -46,10 +46,16 @@ body {
 }
 
 .perfil img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-right: 8px;
+}
+
+.perfil p {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 .perfil p:nth-child(1) {
@@ -57,4 +63,32 @@ body {
 
 }
 
+
+main {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    height: 40px;
+    width: 90px;
+    border: solid 1px black;
+    border-radius: 8px;
+    background-color: white;
+    font-family: 'League Spartan', sans-serif;
+    font-size: bold;
+    font-weight: 700;
+    box-shadow: 0 2px 4px 0 black;
+}
+
+.button-left {
+    margin-right: 25px;
+}
+
+.button-right {
+    margin-left:  25px;
+}
 
