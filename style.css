@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background-main {
+    
+    width: 100%;
+    height: 100%;
+    background-image: url('/icons/fondo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.icon-principal {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.perfil {
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 250px;
+    padding: 20px;
+}
+
+.perfil img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.perfil p:nth-child(1) {
+    margin-bottom: 2px;
+
+}
+
+
